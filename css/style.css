@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    list-style-type: none;
+    overflow: hidden;
+}
+  
+navItem {
+    float: left;
+}
+  
+navItem:last-child {
+    border-right: none;
+}
+  
+navItem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+navItem a:hover:not(.active) {
+    font-size: larger;
+    background: linear-gradient(to right, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840);
+    background-size: 1920% 1080%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: rainbow 3s ease infinite;
+    -z-animation: rainbow 3s ease infinite;
+    -o-animation: rainbow 3s ease infinite;
+    animation: rainbow 3s ease infinite;
+}
+  
+.active {
+    background-color: rgb(149, 133, 216);
+}
+
+tint {
+    z-index: -1000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    mix-blend-mode: overlay;
+}
+
+video {
+    z-index: -100;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+@-webkit-keyframes rainbow {
+0%{background-position:0% 82%}
+50%{background-position:100% 19%}
+100%{background-position:0% 82%}
+}
+
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+
+animatedtext { 
+    background: linear-gradient(to right, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840);
+    background-size: 1920% 1080%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: rainbow 10s ease infinite;
+    -z-animation: rainbow 10s ease infinite;
+    -o-animation: rainbow 10s ease infinite;
+    animation: rainbow 10s ease infinite;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    border: none;
+    color: white;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    transition-duration: 0.2s;
+    background: transparent;
+}
+
+button:hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 25px;
+    border: none;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    background: linear-gradient(to right, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840);
+    background-size: 1920% 1080%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: rainbow 3s ease infinite;
+    -z-animation: rainbow 3s ease infinite;
+    -o-animation: rainbow 3s ease infinite;
+    animation: rainbow 3s ease infinite;
+}
