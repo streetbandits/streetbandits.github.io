@@ -1,10 +1,21 @@
 var audio = document.getElementById('site_audio');
 var body = document.getElementById('site_body');
 
+function loadMobileSite() {
+    body.innerHTML = `
+    <nav><navItem><a href="https://instagram.com/streetbandits.uk">Instagram</a></navItem><navItem><a href="https://discord.gg/m3KZB2kgEw">Discord</a></navItem><navItem><a href="https://github.com/streetbandits">GitHUB</a></navItem></nav>
+    <style>background: black; color: white;</style>
+<h1>
+    <center>
+        <animatedText>@streetbandits.uk</animatedText>
+    </center>
+    Home of all things UK cars and crime.
+</h1>`;
+}
+
 function loadSite() {
     audio.play();
     body.innerHTML = `<nav><navItem><a href="https://instagram.com/streetbandits.uk">Instagram</a></navItem><navItem><a href="https://discord.gg/m3KZB2kgEw">Discord</a></navItem><navItem><a href="https://github.com/streetbandits">GitHUB</a></navItem></nav>
-
     <h1>
         <center>
             <animatedText>@streetbandits.uk</animatedText>
