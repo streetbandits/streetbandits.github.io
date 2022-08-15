@@ -117,7 +117,7 @@ button {
     left: 50%;
     font-size: 20px;
     border: none;
-    color: white;
+    color: black;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     transition-duration: 0.2s;
