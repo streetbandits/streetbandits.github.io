@@ -5,7 +5,7 @@ var body = document.getElementById('site_body');
 function loadSite() {
     audio.play();
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        body.innerHTML = `<style>background: black;</style><nav><navItem><a href="https://instagram.com/streetbandits.uk">Instagram</a></navItem><navItem><a href="https://discord.gg/m3KZB2kgEw">Discord</a></navItem><navItem><a href="https://github.com/streetbandits">GitHUB</a></navItem></nav>
+        body.innerHTML = `<body bgcolor="black"><nav><navItem><a href="https://instagram.com/streetbandits.uk">Instagram</a></navItem><navItem><a href="https://discord.gg/m3KZB2kgEw">Discord</a></navItem><navItem><a href="https://github.com/streetbandits">GitHUB</a></navItem></nav>
     <h1>
         <center>
             <animatedText>@streetbandits.uk</animatedText>
