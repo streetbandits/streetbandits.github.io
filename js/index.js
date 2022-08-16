@@ -10,7 +10,7 @@ function loadSite() {
         <center>
             <animatedText>@streetbandits.uk</animatedText>
         </center>
-        Home of all things UK cars and crime.
+        Fuck the recession.
     </h1>`;
     } else {
         body.innerHTML = `<tint>
@@ -20,7 +20,7 @@ function loadSite() {
             <center>
                 <animatedText>@streetbandits.uk</animatedText>
             </center>
-            Home of all things UK cars and crime.
+            Fuck the recession.
         </h1>`; // I cannot program JS for the life of me so this is the most BTEC thing I could think of LOL
     }
     dynamicTitle();
