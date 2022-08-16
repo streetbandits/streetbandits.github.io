@@ -30,7 +30,7 @@ async function dynamicTitle() { // this function is also BTEC as fuck
     while (true) {
         document.title = "Welcome!";
         await sleep(1000);
-        document.title = "Home of UK cars and crime.";
+        document.title = "Stop acting bad you mug.";
         await sleep(1000);
         document.title = "Developed by streetbandits";
         await sleep(1000);
