@@ -5,8 +5,8 @@ function loadSite() {
     audio.play();
     body.innerHTML = `<center><middle><h1>Matt</h1>You ain't bad, stop actin'. &trade;
     <nav>
-        <navItem><a href="https://instagram.com/lgr.matt_">Instagram</a></navItem>
-        <navItem><a href="https://github.com/mattlgr">GitHUB</a></navItem>
-        <navItem><a href="https://twitter.com/mattlgr_">Twitter</a></navItem>
+        <navItem><a href="https://instagram.com/prmze">Instagram</a></navItem>
+        <navItem><a href="https://github.com/streetbandits">GitHUB</a></navItem>
+        <navItem><a href="https:/github.com/streetbandits/kestral">Download Kestral</a></navItem>
     </nav></middle></center>`;
 }
